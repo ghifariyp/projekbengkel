@@ -1,0 +1,42 @@
+<style>
+#nomer_surat{
+	text-align:center;
+}
+.nama_surat{
+	text-transform:uppercase;
+	text-decoration:underline;
+	font-weight:bolder;	
+}
+#surat{
+	padding:10px;
+	border:1px solid green;
+	min-width:300px;
+	min-height:400px;
+	overflow:auto;
+}
+#surat div{
+	margin:4px;	
+}
+#par_pembuka{
+	text-align:justify;	
+}
+#content_surat{
+	position:auto;
+//	border:1px solid red;
+	overflow:auto;
+	padding-left:30px;
+	min-height:300px;
+	}
+#content_surat div{
+	position:relative;
+	padding:1px;
+	}	
+label.l_form{
+//	display: inline-block;
+}
+.isian_surat{
+	position:absolute;
+	left:170px;
+	width:auto;
+}	
+</style>
